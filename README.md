@@ -49,7 +49,7 @@ there are 4 applications within the Package
 
 
 # General Script Usage
-It also requires a specific folder struvure
+It also requires a specific folder strucutre.  If you are not using one of these endpoints, you can delete the top level EXE and the assocaited subfolder. For example if you are not using SmartDock, delete SmartDockUpdate.exe from the top level and delete the folder SmartDockUpdater
 <BlockQuote>
        [folder]Logitech Updater Files<br />
   <BlockQuote>
