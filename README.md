@@ -13,6 +13,8 @@ This script is used to query and update Logitech VC Equipment. It supports the f
 </UL>
 
 # Output
+I am using JSON files because those can easily be imported into Azure Log Analytics
+
     This will generate up to 4 logs for each system as an example for Rally
     %windir%\Temp\RallySystem.log : This the log file of what was done. It is overwritten each time the script is executed
     %windir%\Temp\LogitechFirmware-RallySystem*.Json: This is the inventory output
@@ -29,10 +31,10 @@ This script is used to query and update Logitech VC Equipment. It supports the f
     The process Log file is not designed for ALA.
 
 # SCCM
-You can find two Zipped files.
+You can find two Zipped files in Releases
 
-Is the File to import into SCCM
-Contains all the files and folder structures for the latest firmware as of December 2019. How to get the files are listed in the PowerShell Script.
+<b>Logitech Firmware Management.zip</b>: Is the Package (not application) to import into SCCM
+<b>Logitech Firmware Management_files.zip</b>: Contains all the files and folder structures for the latest firmware as of December 2019. How to get the files are listed in the PowerShell Script.
 
 Imprt the Zipped file as a package, not as an application
 there are 4 applications within the Package
